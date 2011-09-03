@@ -11,12 +11,26 @@ set whichwrap+=<,>,h,l
 
 set listchars=tab:▸\ ,eol:¬,trail:☠
 
-" Use spaces instead of tabs, and
-" prefer 3 spaces.
-set softtabstop=2
-set tabstop=2
-set shiftwidth=2
-set expandtab
+" spaces instead of tabs
+function! Tabstyle_tabs()
+   set softtabstop=4
+   set shiftwidth=4
+   set tabstop=4
+   set noexpandtab
+   autocmd User Rails set softtabstop=4
+   autocmd User Rails set shiftwidth=4
+   autocmd User Rails set tabstop=4
+   autocmd User Rails set noexpandtab
+endfunction
+
+function! Tabstyle_spaces()
+   set softtabstop=2
+   set tabstop=2
+   set shiftwidth=3
+   set expandtab
+endfunction
+
+call Tabstyle_spaces()
 
 " Automatically reload a file if it's changed outside of vim (or in another
 " window)
