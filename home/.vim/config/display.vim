@@ -2,9 +2,9 @@
 " This is *not* where gui-mode specific settings are held. That's in gui.vim.
 " These settings apply to both gui mode and console mode vim.
 
-set colorcolumn=80 " put a marker at the 80 column mark
-                   " Yes, 80 chars is kind of arbitrary in the modern age...
-                   " but it's a good rule of thumb
+" use the desert256 colorscheme (works better with console than zenburn)
+set background=dark
+colorscheme solarized
 
 set laststatus=2   " always display a status line
 set rnu            " always display line numbers
