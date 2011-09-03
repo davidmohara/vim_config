@@ -17,9 +17,11 @@ let NERDTreeDirArrows=1
 
 """ Keybindings
 """""""""""""""
+map <Leader>d :NERDTreeToggle<CR>
 
 " Use <Leader>d to toggle display of the NERDTree window
-map <Leader>d :NERDTreeToggle<CR>
+" ignore a few files
+let NERDTreeIgnore = ['\.DS_Store', '\.git', 'Gemfile.lock']
 
 """ Special Commands
 """"""""""""""""""""
