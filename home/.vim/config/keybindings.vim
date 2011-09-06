@@ -39,7 +39,7 @@ imap jj <Esc>
 imap uu _
 imap hh =>
 imap aa @
-map <S-Enter> 0<Esc>
+map <S-Enter> O<Esc>
 map <Enter> o<Esc>
 
 " switch ' and `, because:
