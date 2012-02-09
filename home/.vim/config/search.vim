@@ -10,3 +10,5 @@ set ignorecase
 " ...unless a capital letter is included, in which case it's assumed you want
 " case-sensitive search.
 set smartcase
+
+map <Leader><space> :nohl<Enter>
