@@ -37,11 +37,11 @@ call Tabstyle_spaces()
 set autoread
 
 " wrap lines rather than make use of the horizontal scrolling
-set wrap
+set nowrap
 " try not to wrap in the middle of a word
 set linebreak
 " use an 80-character line limit
-set textwidth=80
+set textwidth=120
 
 " format settings
 " t - Auto-wrap text using textwidth
