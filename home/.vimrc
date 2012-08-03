@@ -34,6 +34,7 @@ Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'duwanis/tomdoc.vim'
+Bundle 'juvenn/mustache.vim'
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to
