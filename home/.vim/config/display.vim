@@ -3,8 +3,6 @@
 " These settings apply to both gui mode and console mode vim.
 
 " use the desert256 colorscheme (works better with console than zenburn)
-set background=dark
-colorscheme solarized
 
 set laststatus=2   " always display a status line
 set rnu            " always display line numbers
